@@ -1,0 +1,12 @@
+.home h1 {
+    font-size: 64px;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 830px;
+    display: flex;
+    align-items: center;
+}

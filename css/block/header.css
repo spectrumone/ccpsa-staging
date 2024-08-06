@@ -1,0 +1,103 @@
+.blue-header {
+    background-color: var(--primary-color);
+    color: var(--text-white);
+    font-size: 13px;
+    padding: 15px 0;
+}
+
+.blue-header a {
+    color: var(--text-white);
+    text-decoration: none;
+}
+
+.blue-header i {
+    padding-right: 10px;
+}
+
+.navbar li a {
+    color: var(--text-color) !important;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.navbar {
+    padding: 20px 0;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        margin: 20px 0 20px 0;
+    }
+}
+
+
+
+/**********/
+
+.dropdown-item.active, .dropdown-item:active {
+    color: var(--text-white) !important;
+    background-color: var(--primary-color);
+}
+
+@media (max-width: 1199px) {
+    #menu-menu {
+        margin-left: 0;
+        border-top: 1px solid #0075bb;
+        margin-top: 15px;
+    }
+}
+
+/***** Cascading Style for District Council Menu*****/
+
+ul.dropdown-menu.sub-menu.depth_1 {
+    width: 95%;
+    margin-left: 5%;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu-end:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+ul.dropdown-menu.sub-menu.depth_1 {
+    width: 565px;
+    position: absolute;
+    left: 100%;
+    top: -9px;
+    height: 275px;
+    margin-left: 0;
+}
+
+
+ul.dropdown-menu.depth_0 li:nth-child(1):hover > ul.dropdown-menu.sub-menu.depth_1 {
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 1199px) { 
+ul.dropdown-menu.sub-menu.depth_1 {
+    position: static;
+}
+
+ul.dropdown-menu.sub-menu.depth_1 {
+    width: 100%;
+    position: static;
+    height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) { 
+    a.dropdown-item {
+        white-space: break-spaces;
+    }
+}
