@@ -1,0 +1,103 @@
+/*Calendar Styling*/
+/* .tribe-events-calendar-list {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin: 0 auto; 
+	background-color: #FFFF;
+    border: 1px solid #e4e4e4 !important;
+	border-radius: 10px;
+	font-family: 'Roboto';
+}
+
+.tribe-events-calendar-list th,
+.tribe-events-calendar-list td {
+    border: 1px solid #dcdcdc !important;
+    padding: 15px !important;
+    text-align: left;
+    vertical-align: middle;
+	height: 100px;
+}
+
+.tribe-events-calendar-list th {
+    font-weight: bold;
+	color: #667085 !important;
+} */
+
+/* Remove the outer borders */
+/* .tribe-events-calendar-list tr th:first-child,
+.tribe-events-calendar-list tr td:first-child {
+    border-left: none !important;
+}
+
+.tribe-events-calendar-list tr:first-child th {
+    border-top: none !important;
+}
+
+.tribe-events-calendar-list th:last-child,
+.tribe-events-calendar-list td:last-child {
+    border-right: none !important;
+}
+
+.tribe-events-calendar-list tr:last-child th,
+.tribe-events-calendar-list tr:last-child td {
+    border-bottom: none !important;
+}
+
+.tribe-events-calendar-list td a {
+    color: #0092D1 !important;
+		font-weight:bold
+}
+
+.tribe-events-calendar-list td {
+	font-weight:bold
+}
+
+.text-container {
+    color: var(--text-color); */
+
+
+/*Calendar styling END*/
+
+
+
+.tribe-events .tribe-events-c-search__button, .tribe-events button.tribe-events-c-search__button, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:hover {
+    background-color: var(--primary-color);
+}
+
+.tribe-common .tribe-common-h3, .tribe-events-calendar-list__event-title-link {
+    font-family: var(--heading-font);
+    color: var(--text-color);
+}
+
+.tribe-common .tribe-common-c-btn-border, .tribe-common a.tribe-common-c-btn-border {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.tribe-events .tribe-events-c-search__button:hover {
+    background-color: var(--secondary-color);
+}
+
+.tribe-events .tribe-events-c-events-bar__views {
+    display: none;
+}
+
+
+
+/** Color Code Styles for Organizer **/
+
+tr.organizer-25th-district-council, tr.organizer-24th-district-council, tr.organizer-23rd-district-council, tr.organizer-22nd-district-council, tr.organizer-21st-district-council, tr.organizer-20th-district-council, tr.organizer-19th-district-council, tr.organizer-18th-district-council, tr.organizer-17th-district-council, tr.organizer-16th-district-council, tr.organizer-15th-district-council, tr.organizer-14th-district-council, tr.organizer-13th-district-council, tr.organizer-12th-district-council, tr.organizer-11th-district-council, tr.organizer-10th-district-council, tr.organizer-9th-district-council, tr.organizer-8th-district-council, tr.organizer-7th-district-council, tr.organizer-6th-district-council, tr.organizer-5th-district-council, tr.organizer-4th-district-council, tr.organizer-2nd-district-council, tr.organizer-3rd-district-council, tr.organizer-1st-district-council {
+    border-left: 5px solid #0075BB;
+}
+
+tr.organizer-commission {
+    border-left: 5px solid #e4002b;
+}
+
+tr.organizer-general {
+    border-left: 5px solid #41B6E6;
+}
+
+
+

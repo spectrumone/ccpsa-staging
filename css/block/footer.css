@@ -1,0 +1,7 @@
+footer {
+    background-color: #323A45;
+}
+
+footer ul li a {
+    color: var(--text-white);
+}

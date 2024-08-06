@@ -1,0 +1,58 @@
+.announcements {
+    margin-top: 50px;
+}
+.announcements h3 {
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.announcements .date {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.stretched-link {
+    color: var(--primary-color);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.announcements img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+/* Sidebar */
+
+.press-release-thumbnail img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    max-width: unset;
+}
+
+.press-release-content {
+    padding-left: 10px;
+}
+
+aside {
+    padding-left: 80px;
+}
+
+aside .press-release {
+    margin-bottom: 20px;
+    border-top: 2px solid #B3B3B3;
+    padding-top: 20px;
+}
+
+.press-release-link {
+    color: #172B4D;
+}
+
+.press-release-date {
+    color: #42526E;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 10px;
+}

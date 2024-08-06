@@ -1,0 +1,110 @@
+/* Global variables */
+:root {
+    --primary-color: #0075BB;
+    --secondary-color: #41B6E6;
+    --background-color: #f4f4f4;
+    --grey-bgcolor: #B0B0B0;
+    --text-color: #4D4D4D;
+    --text-white: #FFFFFF;
+    --primary-font: "Archivo Narrow", sans-serif;
+    --heading-font: "Lora", serif;
+    --body-font: "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+h1 {
+    font-family: var(--primary-font);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+p {
+    font-family: var(--body-font);
+    font-weight: 400;
+    font-size: 18px;
+    margin: .5em 0!important;
+    color: var(--text-color);
+    line-height: 32px;
+    letter-spacing: 0.2px;
+}
+
+a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--text-white);
+}
+
+a {
+    font-family: var(--body-font);
+    color: var(--text-color);
+    text-decoration: underline;
+    font-weight: 700 !important;
+}
+
+.post, .page {
+    margin: 0;
+}
+
+.divider {
+    padding-block-start: 4px;
+    padding-block-end: 14px;
+    display: flex;
+}
+
+.divider-separator {
+    border-block-start: 4px solid #41B6E6;
+    width: 24px;
+}
+
+
+
+/* Star Icon */
+
+ul.star-icon {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 20px;
+}
+
+ul.star-icon li {
+    position: relative;
+    margin-bottom: 10px; 
+}
+
+ul.star-icon li:before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/star.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin-top: 4px;
+}
+
+/* Button */
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    border: unset;
+    width: auto;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+}
+
+.row {
+    margin-bottom: 40px;
+}

@@ -1,0 +1,138 @@
+.wrapper-community-commission {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60vw;
+}
+
+/* .faq-header {
+    display: flex;
+    align-items: center;
+    border: none;
+} */
+
+h2 {
+    font-size: 32px;
+}
+
+h3, .faq-question {
+    font-size: 24px;
+    font-family: var(--heading-font);
+}
+
+.community-commission-section {
+    padding: 20px 0px;
+}
+
+
+.community-commission-image img {
+    width: 100%;
+}
+
+.image-source {
+    color: #7A7A7A;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.community-commission p, .community-commission ul > li {
+    text-align: justify;
+}
+
+.blue-bar {
+    height: 5px;
+    background-color: #41B6E6;
+    margin: 20px 0; 
+    width: 25px;
+}
+
+.accordion {
+    border: none;
+}
+
+.accordion-item:first-of-type, .accordion-item {
+    border-radius: .5rem;
+}
+
+.accordion-item {
+    background-color: #F5F7FA;
+    padding: 15px 25px 40px 30px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.faq-icon {
+    margin-right: 30px;
+    color: blue;
+    width: 45px;
+}
+
+.faq-header {
+    margin-top: none;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.faq-question {
+    flex-grow: 1;
+}
+
+.faq-question-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.faq-arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #41B6E6; /* Downward arrow */
+    transition: transform 0.3s ease-out;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+/* Hide Checkbox */
+.faq-container input[type="checkbox"] {
+    display: none;
+}
+
+/* Toggle Content */
+.faq-content {
+    display: none;
+    padding: 10px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+    font-weight: 200px;
+    text-align: justify;
+}
+
+.faq-content ul li {
+    padding-bottom: 20px;
+}
+
+
+/* Show Content When Label (FAQ Title) is Clicked */
+input[type="checkbox"]:checked + .faq-header + .faq-content {
+    display: block;
+    max-height: 800px;
+}
+
+/* Rotate Arrow When Checked */
+input[type="checkbox"]:checked + .faq-header .faq-arrow {
+    transform: rotate(180deg); /* Upward arrow on toggle */
+}
+
+.faq-header,
+.faq-arrow {
+    display: block;
+    cursor: pointer;
+}
+

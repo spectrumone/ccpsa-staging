@@ -1,0 +1,382 @@
+.quick-links {
+    background-color: #E1F3F8;
+    padding: 90px 0;
+}
+
+.quick-links ul {
+    list-style: none;      
+    margin: 0;
+    padding-left: 0;    
+}
+
+.get-involved {
+    padding: 90px 0;
+    margin-top: 50px;
+}
+
+.get-involved h3 {
+    color: #272D37;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.member-column {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+.member-container {
+    margin-top: 70px;
+}
+
+.member-column h5 {
+    margin-bottom: 0px;
+    color: #4D4D4D;
+    font-family: "Lora", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 16px;
+}
+
+.email {
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #41B6E6;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.read-more {
+    background: none;
+    color: #41B6E6;
+    font-size: 16px;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.position {
+    margin-bottom: 0.7em;
+}
+
+.biography {
+    text-align: center;
+    color: #4D4D4D;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.member-title {
+    text-align: center;
+}
+
+.member-column img {
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+}
+
+/* single-member.php */
+
+.solo-headshot {
+    height: auto;
+    max-width: 100%;
+    width: 500px;
+}
+
+.full-member {
+    margin: 90px 0;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-top-bar {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.tribe-events .tribe-events-c-top-bar__datepicker {
+    flex: none;
+    margin: 0 20px;
+}
+
+.tribe-common.tribe-common--breakpoint-medium button.tribe-events-c-top-bar__datepicker-button {
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #667085;
+    width: 190px;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-top-bar__datepicker {
+    margin: 0 20px;
+    border: 1px solid #000;
+    background: #FFFFFF;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #667085;
+    border-radius: 5px;
+}
+
+.tribe-common--breakpoint-medium.tribe-common .tribe-common-c-btn-border-small, 
+.tribe-common--breakpoint-medium.tribe-common a.tribe-common-c-btn-border-small {
+    padding: 10px;
+    width: auto;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #667085;
+}
+
+.tribe-common time {
+    margin-right: 40px;
+}
+
+.select-wrapper {
+    position: relative;
+    width:100%;
+}
+
+.month-picker-container {
+    display: none; /* Initially hidden */
+    position: absolute; /* Positioned relative to its trigger button */
+    width: 40%;
+    height: 300px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 10px;
+    z-index: 10; /* Make sure it's above other content */
+    border-radius: 5px;
+    top: 140px;
+}
+
+.month-picker-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 100px;
+    margin: 0 27px !important;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.month-picker {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    height: 169px;
+    font-size: 16px;
+}
+
+.month {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.month:active, .month:hover {
+    background-color: #007bff; /* This will be the background color on hover */
+    color: white; /* Change the text color to white on hover, if desired */
+}
+
+.buttons {
+    text-align: center; /* Aligns the Filter and Clear buttons */
+    margin-top: 20px;
+}
+
+.dropdown-container {
+    margin: 20px;
+    width: 200px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius:5px;
+}
+
+.cust_cat_selector {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.custom-calendar {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#toggle-picker-button {
+    background-color: white;
+    width: 220px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #919ba7;
+    font-weight: 600;
+}
+
+.custom-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width:100%;
+    column-gap: 20px;
+}
+
+#filter_events_button {
+    background-color: #41b6e6;
+    color: #FFFFFF;
+    font-weight: 600;
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+}
+
+#clear_filters_button {
+    height: 40px;
+    font-weight: 600;
+    color: #919ba7;
+}
+
+.vision-and-goals {
+    background-color: #E1F3F8;
+    padding: 90px 0;
+    margin-top: 50px;
+}
+
+@media (min-width: 1400px) { 
+    .container {
+        width: 1140px;
+    }
+}
+
+h3 {
+    color: #4D4D4D;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.who-we-serve-container {
+    padding: 90px 0;
+}
+
+.who-we-serve-container img {
+    width: 500px;
+}
+
+.yearly-calendar {
+    background-color: #E1F3F8;
+    padding: 90px 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.tribe-section .tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+.media-library {
+    text-align: center;
+    padding-top: 70px;
+}
+
+/*Cascading style for single district councils*/
+.tribe-common-l-container.tribe-events-l-container .table-hover {
+    border-color: transparent;
+    text-align:left;
+    margin-bottom: 0px;
+}
+
+.tribe-common-l-container.tribe-events-l-container .table-responsive {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+/*Mega menu for district councils*/
+/* @media screen and (min-width: 1280px) {
+    .sub-menu-columns ul.sub-menu {
+        width: 570px !important;
+        column-count: 3;
+    }
+
+    .sub-menu-columns ul.sub-menu li {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1350px) {
+    .sub-menu-columns ul.sub-menu {
+        width: 380px !important;
+        column-count: 2;
+    }
+} */
+
+
+
+/* Custom styles for the events list */
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-top-bar__datepicker{
+    border: unset;
+    background: unset;
+}
+
+a.tribe-common-c-btn-border-small.tribe-events-c-top-bar__today-button.tribe-common-a11y-hidden {
+    padding: 6px 15px;
+    color: #141827;
+    border: 1px solid #d5d5d5;
+    font-family: "Helvetica Neue", Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.tribe-common.tribe-common--breakpoint-medium button.tribe-events-c-top-bar__datepicker-button {
+    width: unset;
+    font-size: 28px !important;
+    font-family: Lora, serif;
+    font-weight: normal;
+    color: #141827;
+}
+
+.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom {
+    display: block;
+    left: unset !important;
+}
+
+table.table.table-bordered.table-hover th {
+    text-align: left;
+    padding: .5rem .5rem !important;
+}
+
+table.table.table-bordered.table-hover tr td {
+    padding: .5rem .5rem !important;
+    text-align: left;
+}
